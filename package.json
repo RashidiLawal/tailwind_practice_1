@@ -1,0 +1,14 @@
+{
+  "name": "course_a",
+  "version": "1.0.0",
+  "description": "Tailwind Daily Tuition",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i src/styles.css -o public/output.css --watch"
+  },
+  "author": "Lawal Rshidi",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}

@@ -1,0 +1,15 @@
+/* tailwindcss utility classes */
+@tailwind base;
+@tailwind components;
+
+.container {
+    @apply bg-indigo-500;
+    @apply mx-40;
+}
+
+.font-mono{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    @apply text-lg;
+}
+@tailwind utilities;
